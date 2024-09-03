@@ -2,6 +2,18 @@
 
 An abstract syntax tree generator for those .properties files 
 
+## .properties logic
+
+I can't think of much beyond this.
+
+- Keys and values are always seperated by an `=` 
+- Comments always lead with a `#`
+- Values can be single line or multi line
+    - multi line values always trail with a `\`
+
+## Setup
+
+I'm using deno, there's no dependieces so you can run whatever just gotta handle the ts however you want srry
 
 ## Example
 
